@@ -45,7 +45,9 @@ let students =["nuur","farax","muuse","nuur","farax","muuse","nuur","farax","muu
 // const city= "mogadishu"
 // const message =`hello ${name} welcome to ${city}`
 // console.log(message)
-const  numbers=[1,2,3,4,5]
-numbers[0]
-console
-
+// const  numbers=[1,2,3,4,5]
+// numbers[0]
+// console
+// const person = {name: "frax",age:22,city:"mogadishu"}
+// const {name,age,city}=person
+// console.log(name)
