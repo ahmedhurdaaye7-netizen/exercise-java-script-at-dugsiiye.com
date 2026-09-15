@@ -8,9 +8,22 @@ const numbers = [
   61, 62, 63, 64, 65, 66, 67, 68, 69, 70,
   71, 72, 73, 74, 75, 76, 77, 78, 79, 80,
   81, 82, 83, 84, 85, 86, 87, 88, 89, 90,
-  91, 92, 93, 94, 95, 96, 97, 98, 99, 100
+  91, 92, 93, 94, 95, 96, 97, 98, 99, 100,105,120,180
 ];
-numbers.forEach((number)=>{
-   
-    console.log("the number of  "+ number)
-})
+// const newNumbers = numbers.map((num)=> num*4
+  
+
+
+// )
+// console.log(newNumbers)
+// const newNumbers = numbers.filter((num)=> num>60 && num<100)
+// console.log(newNumbers)
+// const newNumbers =numbers.map((num)=> num*5)
+// console.log("new numbers")
+
+// console.log("old numbers")
+// console.log(numbers)
+// const newNumbers = numbers.reduce((cali,farax)=> cali+farax,0)
+// console.log(newNumbers)
+ 
+
