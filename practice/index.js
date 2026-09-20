@@ -86,37 +86,50 @@ let students =["nuur","farax","muuse","nuur","farax","muuse","nuur","farax","muu
 // console.log("start")
 // const user = fetchUserDataSync()
 // console.log("user information",user)
-function fetchUserData(){
+// function fetchUserData(){
 
-    return new Promise((resolve, reject) => {
-        setTimeout(()=>{
-            const sucsess= false
-            if(sucsess){
-                resolve({id:36665,name:"ahmed maxamed ahmed"})
-            } else{
-                reject("failed to fetch user data")
-            }
+//     return new Promise((resolve, reject) => {
+//         setTimeout(()=>{
+//             const sucsess= false
+//             if(sucsess){
+//                 resolve({id:36665,name:"ahmed maxamed ahmed"})
+//             } else{
+//                 reject("failed to fetch user data")
+//             }
 
 
-        },2000)
+//         },2000)
         
-    })
-}
+//     })
+// }
 // fetchUserData()
 // .then((data)=> console.log("user datsa",data))
 // .catch((error)=> console.log(error))
-async function displayUserData() {
-    try{
-        const user = await fetchUserData()
-        console.log("user data",user)
+// async function displayUserData() {
+//     try{
+//         const user = await fetchUserData()
+//         console.log("user data",user)
 
-    } catch(error){
-        console.log(error)
+//     } catch(error){
+//         console.log(error)
 
 
-    }
+//     }
     
-}
-displayUserData()
+// }
+// displayUserData()
+
+
+// function calculation(name){
+//     console.log("hello "+ name)
+// }
+
+//  function job(callback){
+//    const name = prompt("enter your name")
+//     callback(name)
+
+
+//  }
+//  job(calculation)
 
 
