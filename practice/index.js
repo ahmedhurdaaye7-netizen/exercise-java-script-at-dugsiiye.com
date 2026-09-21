@@ -132,4 +132,29 @@ let students =["nuur","farax","muuse","nuur","farax","muuse","nuur","farax","muu
 //  }
 //  job(calculation)
 
+  async    function fetchUserData(){
+    
 
+try{
+    console.log("starting fetching user data")
+
+    const reponse = await fetch('https://jsonplaceholder.typicode.com/posts')
+    if(!reponse.ok){
+        throw new error("fetch failed")
+
+    }
+    // console .log(reponse)
+
+
+    const data =  await reponse.json()
+    console.log(data)
+    
+
+} catch(error){
+    console.log(error)
+}
+
+
+
+}
+fetchUserData()
